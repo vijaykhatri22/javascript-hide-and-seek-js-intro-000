@@ -19,11 +19,11 @@ function deepestChild(){
   const child = document.querySelector('#grand-node');
   const nextChild = [];
   while (child) {
-    
+
     child=child.querySelector('div');
-    
-    
-    
+
+
+
   }
 
 
