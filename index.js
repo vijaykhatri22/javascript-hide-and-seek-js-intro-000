@@ -8,15 +8,10 @@ function nestedTarget(){
   return id.querySelector('.target');
 }
 function increaseRankBy(n) {
-  const rank=[];
-  const list = document.querySelectorAll(".ranked-list");
+  const list = document.querySelectorAll(".ranked-list li");
+  //const number = [];
   for(var i=0;i<list.length;i++){
-    rank[i]=parseInt(list[i].innerHTML,10) + n;
-
-    console.log(rank[i]);
+    list[i].innerHTML = parseInt(list[i].innerHTML,10) + n;
   }
-
-
-return rank;
 
 }
