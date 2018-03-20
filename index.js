@@ -23,8 +23,9 @@ function deepestChild(){
       break;
     }
     else {
-      child=child.querySelectorAll('div');
+    child=child.querySelectorAll('div');
     }
 
   }
+  return child;
 }
