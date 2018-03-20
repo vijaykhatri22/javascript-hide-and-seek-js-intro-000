@@ -23,7 +23,7 @@ function deepestChild(){
       break;
     }
     else {
-    child=child.querySelectorAll('div');
+    child=child.querySelector('div');
     }
 
   }
