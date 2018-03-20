@@ -23,9 +23,9 @@ function deepestChild(){
       break;
     }
     else {
-      
+
     nextChild=child.querySelector('div');
-    console.log(nextChild);
+    debugger;
     child=nextChild;
     }
 
